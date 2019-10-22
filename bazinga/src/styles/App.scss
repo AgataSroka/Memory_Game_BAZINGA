@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  background-color: black;
+}
+.App {
+  margin: auto;
+  text-align: center;
+  color: white;
+
+  h1{
+    margin-top: 3rem;
+  }
+
+  .container {
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+    height: 100vh;
+
+    .settings{
+      display: flex;
+      margin-top: 3rem;
+      width: 20rem;
+      justify-content: space-between;
+    }
+  }
+}
