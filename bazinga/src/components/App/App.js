@@ -10,8 +10,36 @@ class App extends Component {
                 <h1> Bazinga </h1>
                 <div className='container'>
                     <div className='settings'>
-                        <div> Czas: <span> 100 </span></div>
-                        <div> Ilość odsłon: <span> 0 </span></div>
+                        <div className='main_settings'>
+                        <div className='main_info'>
+                            Czas: <span> 100 </span>
+                        </div>
+                        <div className='main_info'>
+                            Ilość odsłon: <span> 0 </span>
+                        </div>
+                        </div>
+                        <div className='cards'>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                            <div className='card'> </div>
+                        </div>
                     </div>
                 </div>
             </div>
