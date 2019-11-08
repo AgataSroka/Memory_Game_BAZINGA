@@ -7,7 +7,8 @@ class App extends Component {
         return (
 
             <div className="App">
-                <h1> Bazinga </h1>
+                <h1 className='jello-horizontal'> Bazinga </h1>
+
                 <div className='container'>
                     <div className='settings'>
                         <div className='main_settings'>
