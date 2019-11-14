@@ -73,4 +73,4 @@ const start = function () {
     }, 3000)
 
 };
-start()
+start();

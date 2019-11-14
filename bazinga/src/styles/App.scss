@@ -103,7 +103,7 @@
           background-color: turquoise;
         }
 
-        .hidden:not(border) {
+        .hidden {
           background-image: url("../images/bubble-chat.png");
           background-color: white;
           background-position: center;
@@ -116,7 +116,8 @@
         }
 
         .off {
-          display: none;
+          background-color: transparent;
+          border: transparent;
         }
       }
     }
