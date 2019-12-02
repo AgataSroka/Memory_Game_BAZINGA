@@ -5,15 +5,15 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h1 className='jello-horizontal'> Bazinga </h1>
+                <h1> Bazinga </h1>
                 <div className='container'>
                     <div className='settings'>
                         <div className='main_settings'>
                             <div className='main_info'>
-                                Time: <span> 100 </span>
+                                Time: <span> {sessionStorage.getItem("game_time")}  </span>
                             </div>
                             <div className='main_info'>
-                                Flips: <span> 0 </span>
+                                Flips: <span> {sessionStorage.getItem("counter_click")} </span>
                             </div>
                         </div>
                         <section className='cards'>

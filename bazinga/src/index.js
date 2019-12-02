@@ -44,7 +44,8 @@ const clickCard = function () {
                 if (gameResult === gameLength) {
                     const endTime = new Date().getTime();
                     const gameTime = (endTime - startTime) / 1000;
-                    alert(`Congratulations! Your time: ${gameTime} seconds `)
+                    // alert(`Congratulations! Your time: ${gameTime} seconds `)
+                    sessionStorage.setItem("game_time",`${gameTime}s`)
                 }
             } else {
                 console.log('loser');
@@ -74,3 +75,12 @@ const start = function () {
 
 };
 start();
+
+const card_click = [...document.querySelectorAll('.cards > div')];
+console.log(card_click);
+// var count = 0;
+// card_click.onclick = function () {
+//     count += 1;
+//     console.log('count');
+//     sessionStorage.setItem("counter_click",`${count/2}`);
+// };
