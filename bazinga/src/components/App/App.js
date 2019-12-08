@@ -13,30 +13,31 @@ class App extends Component {
                                 Time: <span> {sessionStorage.getItem("game_time")}  </span>
                             </div>
                             <div className='main_info'>
-                                Flips: <span> {sessionStorage.getItem("counter_click")} </span>
+                                {/*Flips: <span> {sessionStorage.getItem("counter_click")} </span>*/}
+                                Flips: <span id='display_count'>  </span>
                             </div>
                         </div>
                         <section className='cards'>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display' ></div>
+                            <div className='display' ></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
+                            <div className='display'></div>
                         </section>
                     </div>
                 </div>

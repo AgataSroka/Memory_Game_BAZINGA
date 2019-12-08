@@ -76,11 +76,13 @@ const start = function () {
 };
 start();
 
-const card_click = [...document.querySelectorAll('.cards > div')];
-console.log(card_click);
+// let card_click = [...document.getElementsByClassName('display')];
+// console.log(card_click);
 // var count = 0;
-// card_click.onclick = function () {
-//     count += 1;
-//     console.log('count');
-//     sessionStorage.setItem("counter_click",`${count/2}`);
+// var display = document.getElementById('display_count');
+// card_click.onClick = function () {
+//     count ++;
+//     display.innerHTML = count;
 // };
+//
+// sessionStorage.setItem("counter_click",`${count/2}`);
