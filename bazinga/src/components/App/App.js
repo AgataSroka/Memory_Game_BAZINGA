@@ -10,34 +10,33 @@ class App extends Component {
                     <div className='settings'>
                         <div className='main_settings'>
                             <div className='main_info'>
-                                Time: <span> {sessionStorage.getItem("game_time")}  </span>
+                                Previous game time: <span> {sessionStorage.getItem("game_time")}  </span>
                             </div>
                             <div className='main_info'>
-                                {/*Flips: <span> {sessionStorage.getItem("counter_click")} </span>*/}
                                 Flips: <span id='display_count'>  </span>
                             </div>
                         </div>
                         <section className='cards'>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display' ></div>
-                            <div className='display' ></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
-                            <div className='display'></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
                         </section>
                     </div>
                 </div>

@@ -10,6 +10,7 @@
   height: 120vh;
   text-align: center;
   color: white;
+  font-family: 'Press Start 2P', cursive;
   background-image: url("../images/universe.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +20,7 @@
   h1 {
     padding-top: 1rem;
     font-size: 2rem;
-    font-family: 'Press Start 2P', cursive;
+    color: orangered;
   }
 
   .container {
@@ -39,8 +40,8 @@
 
         .main_info {
           justify-content: space-between;
-          margin: auto;
-          font-size: 2rem;
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem;
         }
       }
 
