@@ -39,6 +39,13 @@ class App extends Component {
                             <div></div>
                         </section>
                     </div>
+                    <section>
+                        <div style={{display:'none'}} className='game_over_text'>
+                            <h2> Congratulations! <br/> You are the best! </h2>
+                            <h3> Time of your game {sessionStorage.getItem("game_time")} </h3>
+                            <h3> Click to run new game! </h3>
+                        </div>
+                    </section>
                 </div>
             </div>
 

@@ -21,6 +21,7 @@ const activeCards = [];
 const gameLength = cards.length / 2;
 let gameResult = 0;
 
+
 const clickCard = function () {
     activeCard = this;
 
@@ -42,17 +43,23 @@ const clickCard = function () {
         display.innerHTML = count/2;
         activeCards[1] = activeCard;
 
-        setTimeout(function () {
+
+      setTimeout(function () {
+
             if (activeCards[0].className === activeCards[1].className) {
                 console.log('winner');
                 activeCards.forEach(card => card.classList.add('off'));
                 gameResult++;
                 cards = cards.filter(card => !card.classList.contains('off'));
+
                 if (gameResult === gameLength) {
+
                     const endTime = new Date().getTime();
                     const gameTime = (endTime - startTime) / 1000;
                     alert(`Congratulations! Time of your game: ${gameTime.toFixed(0)} s`);
-                    sessionStorage.setItem("game_time",`${gameTime.toFixed(0)}s`)
+                    sessionStorage.setItem("game_time",`${gameTime.toFixed(0)}s`);
+
+
                 }
             } else {
                 console.log('loser');

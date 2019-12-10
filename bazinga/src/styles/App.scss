@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.App {
+.App{
   margin: auto;
   width: 100vw;
   height: 120vh;
@@ -120,6 +120,16 @@
         .off {
           background-color: transparent;
           border: transparent;
+        }
+
+        .game_over_text{
+         color: transparent;
+        }
+        .game_over{
+          display: block;
+          font-size: 40px;
+          color:yellow;
+          text-align: center;
         }
       }
     }
