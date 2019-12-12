@@ -21,6 +21,9 @@ const activeCards = [];
 const gameLength = cards.length / 2;
 let gameResult = 0;
 
+const games = document.querySelectorAll('.game_over_text');
+console.log(games);
+
 
 const clickCard = function () {
     activeCard = this;
@@ -46,6 +49,8 @@ const clickCard = function () {
 
       setTimeout(function () {
 
+
+
             if (activeCards[0].className === activeCards[1].className) {
                 console.log('winner');
                 activeCards.forEach(card => card.classList.add('off'));
@@ -58,8 +63,9 @@ const clickCard = function () {
                     const gameTime = (endTime - startTime) / 1000;
                     alert(`Congratulations! Time of your game: ${gameTime.toFixed(0)} s`);
                     sessionStorage.setItem("game_time",`${gameTime.toFixed(0)}s`);
-
-
+                        // if (games.style.display === 'none') {
+                        //    return games.style.display === 'block'
+                        // }
                 }
             } else {
                 console.log('loser');
