@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App/App';
+import GameOver from './components/GameOver/GameOver.js';
 
 ReactDOM.render(<App/>, document.getElementById('root'));
-
 
 const cardView = ['red', 'red', 'yellow', 'yellow', 'yellowgreen', 'yellowgreen', 'blue', 'blue', 'pink', 'pink',
     'violet', 'violet', 'orange', 'orange', 'darkviolet', 'darkviolet', 'grey', 'grey', 'turquoise', 'turquoise'];
@@ -21,17 +21,12 @@ const activeCards = [];
 const gameLength = cards.length / 2;
 let gameResult = 0;
 
-const games = document.querySelectorAll('.game_over_text');
-console.log(games);
-
-
 const clickCard = function () {
     activeCard = this;
 
     if (activeCard === activeCards[0])
         return;
     activeCard.classList.remove('hidden');
-
 
 
     if (activeCards.length === 0) {
@@ -49,23 +44,26 @@ const clickCard = function () {
 
       setTimeout(function () {
 
-
-
             if (activeCards[0].className === activeCards[1].className) {
                 console.log('winner');
                 activeCards.forEach(card => card.classList.add('off'));
                 gameResult++;
                 cards = cards.filter(card => !card.classList.contains('off'));
 
+                const exit = function () {
+                    if (gameResult === 1){
+                        return <GameOver/>
+                    }
+                };
+                exit();
+
+
                 if (gameResult === gameLength) {
 
                     const endTime = new Date().getTime();
                     const gameTime = (endTime - startTime) / 1000;
-                    alert(`Congratulations! Time of your game: ${gameTime.toFixed(0)} s`);
+                    // alert(`Congratulations! Time of your game: ${gameTime.toFixed(0)} s`);
                     sessionStorage.setItem("game_time",`${gameTime.toFixed(0)}s`);
-                        // if (games.style.display === 'none') {
-                        //    return games.style.display === 'block'
-                        // }
                 }
             } else {
                 console.log('loser');
@@ -74,7 +72,6 @@ const clickCard = function () {
             activeCard = '';
             activeCards.length = 0;
             cards.forEach(card => card.addEventListener('click', clickCard));
-
         }, 1000)
     }
 };
@@ -90,13 +87,14 @@ const start = function () {
         cards.forEach(card => {
             card.classList.add('hidden');
             card.addEventListener('click', clickCard)
-
         })
-
     }, 3000)
-
 };
 start();
+
+
+
+
 
 
 
