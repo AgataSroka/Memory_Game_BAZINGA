@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94f9184edb8fb3563365d621afa6b193",
+    "revision": "bfe6e359a404520dd50604c3edd303f1",
     "url": "/Memory_Game_BAZINGA/index.html"
   },
   {
-    "revision": "7ad69baab829ae5be995",
-    "url": "/Memory_Game_BAZINGA/static/css/main.ec0e519f.chunk.css"
+    "revision": "601c7d3d44b0b5387859",
+    "url": "/Memory_Game_BAZINGA/static/css/main.19d71c86.chunk.css"
   },
   {
-    "revision": "519a539dd02771b7a789",
-    "url": "/Memory_Game_BAZINGA/static/js/2.95c59df5.chunk.js"
+    "revision": "fed361e22477b49c6d28",
+    "url": "/Memory_Game_BAZINGA/static/js/2.72cbac47.chunk.js"
   },
   {
-    "revision": "7ad69baab829ae5be995",
-    "url": "/Memory_Game_BAZINGA/static/js/main.36d4653d.chunk.js"
+    "revision": "601c7d3d44b0b5387859",
+    "url": "/Memory_Game_BAZINGA/static/js/main.178c5ec4.chunk.js"
   },
   {
     "revision": "f0971d5b581531531f3e",

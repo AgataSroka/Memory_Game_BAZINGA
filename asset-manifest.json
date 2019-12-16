@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Memory_Game_BAZINGA/static/css/main.ec0e519f.chunk.css",
-    "main.js": "/Memory_Game_BAZINGA/static/js/main.36d4653d.chunk.js",
-    "main.js.map": "/Memory_Game_BAZINGA/static/js/main.36d4653d.chunk.js.map",
+    "main.css": "/Memory_Game_BAZINGA/static/css/main.19d71c86.chunk.css",
+    "main.js": "/Memory_Game_BAZINGA/static/js/main.178c5ec4.chunk.js",
+    "main.js.map": "/Memory_Game_BAZINGA/static/js/main.178c5ec4.chunk.js.map",
     "runtime-main.js": "/Memory_Game_BAZINGA/static/js/runtime-main.1d72909e.js",
     "runtime-main.js.map": "/Memory_Game_BAZINGA/static/js/runtime-main.1d72909e.js.map",
-    "static/js/2.95c59df5.chunk.js": "/Memory_Game_BAZINGA/static/js/2.95c59df5.chunk.js",
-    "static/js/2.95c59df5.chunk.js.map": "/Memory_Game_BAZINGA/static/js/2.95c59df5.chunk.js.map",
+    "static/js/2.72cbac47.chunk.js": "/Memory_Game_BAZINGA/static/js/2.72cbac47.chunk.js",
+    "static/js/2.72cbac47.chunk.js.map": "/Memory_Game_BAZINGA/static/js/2.72cbac47.chunk.js.map",
     "index.html": "/Memory_Game_BAZINGA/index.html",
-    "precache-manifest.b008fe0a2857bc5f12737d22063f3b09.js": "/Memory_Game_BAZINGA/precache-manifest.b008fe0a2857bc5f12737d22063f3b09.js",
+    "precache-manifest.45e6a2a4dd4db0fd3c63cc560a086f3f.js": "/Memory_Game_BAZINGA/precache-manifest.45e6a2a4dd4db0fd3c63cc560a086f3f.js",
     "service-worker.js": "/Memory_Game_BAZINGA/service-worker.js",
-    "static/css/main.ec0e519f.chunk.css.map": "/Memory_Game_BAZINGA/static/css/main.ec0e519f.chunk.css.map",
+    "static/css/main.19d71c86.chunk.css.map": "/Memory_Game_BAZINGA/static/css/main.19d71c86.chunk.css.map",
     "static/media/App.scss": "/Memory_Game_BAZINGA/static/media/universe.d88f4146.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d72909e.js",
-    "static/js/2.95c59df5.chunk.js",
-    "static/css/main.ec0e519f.chunk.css",
-    "static/js/main.36d4653d.chunk.js"
+    "static/js/2.72cbac47.chunk.js",
+    "static/css/main.19d71c86.chunk.css",
+    "static/js/main.178c5ec4.chunk.js"
   ]
 }

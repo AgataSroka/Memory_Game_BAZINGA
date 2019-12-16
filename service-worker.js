@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Memory_Game_BAZINGA/precache-manifest.b008fe0a2857bc5f12737d22063f3b09.js"
+  "/Memory_Game_BAZINGA/precache-manifest.45e6a2a4dd4db0fd3c63cc560a086f3f.js"
 );
 
 self.addEventListener('message', (event) => {
