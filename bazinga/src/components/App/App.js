@@ -10,6 +10,9 @@ class App extends Component {
                 <div className='container'>
                     <div className='settings'>
                         <div className='main_settings'>
+                            <div className='main_info' >
+                                Time left: <span id='timer' ></span>
+                            </div>
                             <div className='main_info'>
                                 Previous game time: <span> {sessionStorage.getItem("game_time")}  </span>
                             </div>

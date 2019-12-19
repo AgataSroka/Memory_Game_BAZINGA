@@ -10,6 +10,7 @@ const cardView = ['red', 'red', 'yellow', 'yellow', 'yellowgreen', 'yellowgreen'
 
 let cards = [...document.querySelectorAll('.cards > div')];
 console.log(cards);
+
 let display = document.getElementById('display_count');
 console.log(display);
 
@@ -93,8 +94,17 @@ const start = function () {
 start();
 
 
-
-
+setTimeout(function () {
+let time = 101;
+const time_down = function timer(){
+    if (--time === 0) return;
+    setTimeout(function () {
+        document.getElementById('timer').innerHTML = time +'s';
+        timer()
+    }, 1000)
+};
+time_down();
+}, 3000);
 
 
 
